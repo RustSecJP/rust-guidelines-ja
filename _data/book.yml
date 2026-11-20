@@ -1,0 +1,36 @@
+short: Pragmatic Rust Guidelines
+title: Pragmatic Rust Guidelines
+original_title: Pragmatic Rust Guidelines
+seo_title: Pragmatic Rust Guidelines（Microsoft「Pragmatic Rust Guidelines」日本語訳）
+summary: Microsoft が公開している、スケールする慣用的な Rust を書くための実用的な設計ガイドライン集「Pragmatic Rust Guidelines」の、非公式な日本語訳。共通、ライブラリ、マクロ、アプリケーション、FFI、正しさ（unsafe と健全性）、パフォーマンス、プロジェクト、ドキュメント、AI の各ガイドラインを全文訳している。
+author: Microsoft と Pragmatic Rust Guidelines の貢献者
+source: https://github.com/microsoft/rust-guidelines
+license: MIT
+license_url: https://github.com/microsoft/rust-guidelines/blob/main/LICENSE.md
+version: 2026-10-26 時点（コミット 9585e28）
+translated: 2026-11-21
+disclaimer: Microsoft・RustSec・Rust Project・Rust Foundation とは提携していません。
+home_toc: true
+nav:
+  - {file: guidelines/checklist/, title: チェックリスト}
+  - {file: guidelines/correctness/, title: 正しさ}
+chapters:
+  - {file: guidelines/, title: "このガイドラインについて"}
+  - {file: guidelines/checklist/, title: "チェックリスト"}
+  - {file: guidelines/universal/, title: "共通"}
+  - {file: guidelines/libs/, title: "ライブラリ"}
+  - {file: guidelines/libs/interop/, title: "ライブラリ: 相互運用性"}
+  - {file: guidelines/libs/ux/, title: "ライブラリ: UX"}
+  - {file: guidelines/libs/resilience/, title: "ライブラリ: 堅牢性"}
+  - {file: guidelines/libs/building/, title: "ライブラリ: ビルド"}
+  - {file: guidelines/macros/, title: "マクロ"}
+  - {file: guidelines/apps/, title: "アプリケーション"}
+  - {file: guidelines/ffi/, title: "FFI"}
+  - {file: guidelines/correctness/, title: "正しさ"}
+  - {file: guidelines/performance/, title: "パフォーマンス"}
+  - {file: guidelines/project/, title: "プロジェクト"}
+  - {file: guidelines/docs/, title: "ドキュメント"}
+  - {file: guidelines/ai/, title: "AI"}
+  - {file: agents/, title: "エージェントと LLM"}
+  - {file: changelog/, title: "変更履歴"}
+  - {file: FAQ/, title: "FAQ"}
