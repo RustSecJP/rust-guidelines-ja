@@ -1,1 +1,12 @@
-{n  "upstreams": [n    {n      "repo": "microsoft/rust-guidelines",n      "branch": "main",n      "paths": [n        "src"n      ],n      "base": "9585e288d21d2da994a0550c926a09b62d79f8bd"n    }n  ]n}
+{
+  "upstreams": [
+    {
+      "repo": "microsoft/rust-guidelines",
+      "branch": "main",
+      "paths": [
+        "src"
+      ],
+      "base": "9585e288d21d2da994a0550c926a09b62d79f8bd"
+    }
+  ]
+}
